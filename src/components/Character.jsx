@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 export default function Character({ character, handleDelete }) {
   return (
     <>
@@ -14,7 +15,9 @@ export default function Character({ character, handleDelete }) {
           )}
         </div>
         <div className="character-info">
-          <h2 className="character-name">{character.name}</h2>
+          <Link to={`/characters/${character.id}`}>
+            <h2 className="character-name">{character.name}</h2>
+          </Link>
           <div className="character-description">
             <p>{character.race}</p>
             <h3>Base KI</h3>

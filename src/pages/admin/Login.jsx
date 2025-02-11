@@ -44,6 +44,7 @@ export default function Login() {
             type="email"
             id="email"
             name="email"
+            placeholder="Inserisci email"
             value={formData.email}
             onChange={() => handleInputChange("email", event.target.value)}
             required

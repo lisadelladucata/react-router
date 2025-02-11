@@ -18,11 +18,11 @@ export default function Header() {
             <li>
               <NavLink to="/contacts">Contattaci</NavLink>
             </li>
+            <li>
+              <NavLink to="/login">Login</NavLink>
+            </li>
           </ul>
         </nav>
-        <div className="login">
-          <NavLink to="/login">Login</NavLink>
-        </div>
       </header>
     </>
   );
