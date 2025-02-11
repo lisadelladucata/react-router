@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Button from "./Button";
-export default function Header({ links = {}, fetchPosts }) {
+export default function Header() {
   return (
     <>
       <header>
@@ -21,6 +20,9 @@ export default function Header({ links = {}, fetchPosts }) {
             </li>
           </ul>
         </nav>
+        <div className="login">
+          <NavLink to="/login">Login</NavLink>
+        </div>
       </header>
     </>
   );

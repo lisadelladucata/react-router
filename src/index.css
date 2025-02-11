@@ -167,11 +167,18 @@ CONTACTS
 }
 
 /*********
-CONTACTS
+FOOTER
 *********/
 footer {
   padding: 10px;
   margin-top: 40px;
   text-align: center;
   background-color: orange;
+}
+
+/*********
+LOGIN
+*********/
+.login {
+  font-size: 18px;
 }
